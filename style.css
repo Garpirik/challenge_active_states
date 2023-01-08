@@ -1,0 +1,140 @@
+img.top{
+    object-fit: cover; 
+     background-size: 100%;
+    width: 100%;
+    
+}
+
+/* main{
+    background-color: white;
+} */
+img.hero{
+    top: 50%; /* Отступ в процентах от верхнего края окна */
+    left: 40%; /* Отступ в процентах от левого края окна */
+    position: absolute;
+    width: auto; /* Ширина блока */
+    height: auto;
+    min-height: 25%;
+    min-width: 25%; /* Высота блока */
+    margin-top: -230px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+
+}
+#square {
+    width: auto;
+    height: auto;
+    background-color: #f6f6f4;
+    top: 50%;
+    position: absolute;
+    left: 40%;
+min-height: 40%;    
+min-width: 25%;
+    
+}
+
+div.card{
+    top: 50%;
+    left: 50%;
+}
+
+p.text_card{
+    top: 50%; /* Отступ в процентах от верхнего края окна */
+    left: 50%; /* Отступ в процентах от левого края окна */
+    width: auto; /* Ширина блока */
+    height: auto; /* Высота блока */
+    position: absolute; /* Абсолютное позиционирование блока */
+    margin-top: 100px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+    margin-left: -60px;
+    color: gray;
+    text-align: center;
+}   
+
+p.text_summary{
+    top: 50%; /* Отступ в процентах от верхнего края окна */
+    left: 50%; /* Отступ в процентах от левого края окна */
+    width: auto; /* Ширина блока */
+    height: auto; /* Высота блока */
+    position: absolute; /* Абсолютное позиционирование блока */
+    margin-top: 50px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+    margin-left: -40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+}
+
+p.text_annual{
+    top: 50%; /* Отступ в процентах от верхнего края окна */
+    left: 50%; /* Отступ в процентах от левого края окна */
+    width: auto; /* Ширина блока */
+    height: auto; /* Высота блока */
+    position: absolute; /* Абсолютное позиционирование блока */
+    margin-top: 180px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+    margin-left: -40px;
+    text-align: center;
+    color: rgb(33, 35, 87);
+    font-weight: bold;
+}
+
+p.text_cost{
+    top: 50%; /* Отступ в процентах от верхнего края окна */
+    left: 50%; /* Отступ в процентах от левого края окна */
+    width: auto; /* Ширина блока */
+    height: auto; /* Высота блока */
+    position: absolute; /* Абсолютное позиционирование блока */
+    margin-top: 205px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+    margin-left: -40px;
+    text-align: center;
+    color: rgb(33, 35, 87);
+    opacity: 50%    ;
+}
+
+img.img_music{
+    top: 50%; /* Отступ в процентах от верхнего края окна */
+    left: 50%; /* Отступ в процентах от левого края окна */
+    width: auto; /* Ширина блока */
+    height: auto; /* Высота блока */
+    position: absolute; /* Абсолютное позиционирование блока */
+    margin-top: 180px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+    margin-left: -100px;
+    text-align: center;
+    
+}
+
+a.link_change{
+    top: 50%; /* Отступ в процентах от верхнего края окна */
+    left: 50%; /* Отступ в процентах от левого края окна */
+    width: auto; /* Ширина блока */
+    height: auto; /* Высота блока */
+    position: absolute; /* Абсолютное позиционирование блока */
+    margin-top: 190px; 
+    margin-left: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(87, 30, 166);
+    
+}
+button.button_payment{
+    background-color:rebeccapurple;
+    border: 0;
+    top: 50%; /* Отступ в процентах от верхнего края окна */
+    left: 50%; /* Отступ в процентах от левого края окна */
+    width: 20%; /* Ширина блока */
+    height: 5%; /* Высота блока */
+    position: absolute; /* Абсолютное позиционирование блока */
+    margin-top: 250px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+    margin-left: -7%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+p.text_cancel{
+    top: 50%; /* Отступ в процентах от верхнего края окна */
+    left: 50%; /* Отступ в процентах от левого края окна */
+    width: auto; /* Ширина блока */
+    height: auto; /* Высота блока */
+    position: absolute; /* Абсолютное позиционирование блока */
+    margin-top: 320px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+    margin-left: 0px;
+    text-align: center;
+    color: rgb(33, 35, 87);
+    font-weight: bold;
+}
